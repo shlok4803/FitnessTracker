@@ -254,6 +254,13 @@ weekday = { 0: 'sunday', 1: 'monday', 2: 'tuesday', 3: 'wednesday', 4: 'thursday
 today = weekday[day]
 
 const firebaseConfig = {
+    apiKey: "AIzaSyD4RZ4Wj5w7U0bFwrr4sBp-Cd7zWU7KLtA",
+    authDomain: "fitness-tracker-26fc7.firebaseapp.com",
+    projectId: "fitness-tracker-26fc7",
+    storageBucket: "fitness-tracker-26fc7.appspot.com",
+    messagingSenderId: "485286641595",
+    appId: "1:485286641595:web:cbad29c6a418e2e549ce9e",
+    measurementId: "G-3Y4XKFP9PE"
     //Paste Your Firebase Config
   };
 firebase.initializeApp(firebaseConfig);
